@@ -14,7 +14,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class CrawlingInfo {
 
     @Id
-    private String id;
+    private Long id;
 
     private String title;
 
